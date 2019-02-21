@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #FAFAF0, rgba(30, 204, 195, 0.61));
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 70px;
+    letter-spacing: 6px;
+    margin: 0.2em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em 0 0.5em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    background-color: white;
+}
+
+input[type=number] {
+    width: 6em;
+    padding: 0.3em;
+}
+
+form {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+  font-weight: 700;
+  margin-left: 5px;
+  padding: 0.3em;
+  background: #FAFAF0;
+}
